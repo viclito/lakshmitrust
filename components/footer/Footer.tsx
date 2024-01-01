@@ -58,7 +58,15 @@ const Footer:React.FC = () => {
 
                 </div>
                 <div className={styles.map}>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3910.37518923541!2d77.42489817603366!3d11.452822017346605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba93d9ed3c2229d%3A0xe2922757c9f47383!2s2nd%2C%2017%2C%20Ram%20Nagar%20Rd%2C%20Ram%20Nagar%2C%20Gobichettipalayam%2C%20Tamil%20Nadu%20638452!5e0!3m2!1sen!2sin!4v1704114473715!5m2!1sen!2sin" width="600" height="450" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3910.37518923541!2d77.42489817603366!3d11.452822017346605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba93d9ed3c2229d%3A0xe2922757c9f47383!2s2nd%2C%2017%2C%20Ram%20Nagar%20Rd%2C%20Ram%20Nagar%2C%20Gobichettipalayam%2C%20Tamil%20Nadu%20638452!5e0!3m2!1sen!2sin!4v1704114473715!5m2!1sen!2sin"
+                width="600"
+                height="450"
+                style={{ border: "0" }}
+                allowFullScreen // Use 'allowFullScreen' instead of 'allowfullscreen'
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
                 </div>
             </div>
         </div>
