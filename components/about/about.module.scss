@@ -1,7 +1,7 @@
 .about{
     background-color: rgb(247, 255, 248);
     position: relative;
-    height: 80vh;
+    padding: 40px 0;
 
     .image{
         position: absolute;
@@ -65,10 +65,9 @@
 }
 @media (max-width:500px) {
     .about{
+        padding: 0; 
         .manager{
-            .images{
-                display: none;
-            }
+            flex-direction: column-reverse;
         }
         .image{
             top: 10%;

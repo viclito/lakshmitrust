@@ -5,7 +5,7 @@
         text-align: center;
         font-size: 22px;
         font-weight: 600;
-        padding-bottom: 40px;
+        padding: 40px 0;
     }
     .inner{
         max-width: 1200px;
@@ -42,6 +42,33 @@
             height: 400px;
             border-radius: 20px;
             overflow: hidden;
+        }
+    }
+    .inner2{
+        max-width: 600px;
+        margin: auto;
+    }
+    .boxes2{
+        background-color: rgb(229, 255, 229);
+        padding: 30px;
+        border-radius: 20px;
+        display: flex;
+        gap: 60px;
+        
+
+        .box{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            p{
+                font-weight: 700;
+                padding-top: 10px;
+            }
+            h4{
+                padding-left: 10px;
+                font-weight: 600;
+                font-size: 13px;
+            }
         }
     }
 }
@@ -101,5 +128,14 @@
         .inner{
             flex-direction: column;
         }
+    }
+}
+@media (max-width:710px) {
+    .inner2{
+        max-width: 400px !important;
+    }
+    .boxes2{
+        flex-direction: column;
+        gap: 10px !important;
     }
 }

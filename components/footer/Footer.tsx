@@ -8,10 +8,10 @@ import whatsapp from '@/public/whatsapp.png'
 
 const Footer:React.FC = () => {
 
-    const phoneNumber = '6369735144'
+    const phoneNumber = '8675463333'
     
     const emailAddress = 'sriannalakshmitrust@gmail.com'; // Replace this with your email address
-    const whatsappNumber = '6369735144'; // Replace this with your WhatsApp number
+    const whatsappNumber = '6381079511'; // Replace this with your WhatsApp number
 
     const handlePhoneClick = () => {
         window.location.href = `tel:${phoneNumber}`;
@@ -36,7 +36,7 @@ const Footer:React.FC = () => {
                     </div>
                     <div className={styles.box}>
                         <p>Designation : </p>
-                        <h4>MANAGING DIRECTOR</h4>
+                        <h4>Chairman</h4>
                     </div>
                     <div className={styles.box}>
                         <p>Name : </p>
@@ -44,7 +44,7 @@ const Footer:React.FC = () => {
                     </div>
                     <div className={styles.box}>
                         <p>Phone : </p>
-                        <h4>6369735144</h4>
+                        <h4>8675463333</h4>
                     </div>
                     <div className={styles.box}>
                         <p>Email : </p>
@@ -69,7 +69,51 @@ const Footer:React.FC = () => {
                 ></iframe>
                 </div>
             </div>
+            
+            <div className={styles.topic}> Account Details</div>
+
+            <div className={styles.inner2}>
+                <div className={styles.boxes2}>
+                    <div className={styles.one}>
+                        <div className={styles.box}>
+                            <p>UPI ID : </p>
+                            <h4>000000000000000000</h4>
+                        </div>
+                        <div className={styles.box}>
+                            <p>Paytm : </p>
+                            <h4>0000000000000000</h4>
+                        </div>
+                        <div className={styles.box}>
+                            <p>Bank Name : </p>
+                            <h4>AXIS Bamk</h4>
+                        </div>
+                    </div>
+
+                    <div className={styles.one}>
+                        <div className={styles.box}>
+                            <p>Account Name : </p>
+                            <h4>SRI ANNALAKSMHI CHARITABLE TRUST</h4>
+                        </div>
+                        <div className={styles.box}>
+                            <p>Account Number : </p>
+                            <h4>922020048615351</h4>
+                        </div>
+                        <div className={styles.box}>
+                            <p>IFSC Code : </p>
+                            <h4>UTIB0000118</h4>
+                        </div>
+                        <div className={styles.box}>
+                            <p>Accoutn Type : </p>
+                            <h4>CATRS</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
+
+        
+
         <div id={styles.clickable}>
             <div className={styles.inner}>
                 <div className={styles.btn} onClick={handlePhoneClick}>
